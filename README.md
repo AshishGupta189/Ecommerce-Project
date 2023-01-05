@@ -1,7 +1,12 @@
 # REST API for an E-Commerce Application
 
-* I had developed this REST API for an e-commerce application. This API performs all the fundamental CRUD operations of any e-commerce platform with user validation at every step.
+* We have developed this REST API for an e-commerce application. This API performs all the fundamental CRUD operations of any e-commerce platform with user validation at every step.
+* This project is developed by a team of 5 members during our project week in Masai School, Bengaluru. 
 
+
+## E-R Diagram for the application
+
+![E-R Diagram](./ER%20Diagram/E-Commerce%20API%20ER%20Diagram.jpeg?raw=true)
 
 ## Tech Stack
 
@@ -32,6 +37,14 @@
     * Registering themselves with application, and logging in to get the valid session token
     * Viewing different products and adding them to cart and placing orders
     * Only logged in user can access his orders, cart and other features.
+
+## Contributors
+
+* [@abinashpanigrahi](https://github.com/abinashpanigrahi)
+* [@Dathuram16](https://github.com/Dathuram16)
+* [@kamalvinjamoori](https://github.com/kamalvinjamoori)
+* [@anandrajsingh05](https://github.com/anandrajsingh05)
+* [@Adithyanathkv](https://github.com/Adithyanathkv)
 
 
 ## Installation & Run
@@ -132,8 +145,8 @@
 
 ```
     {
-        "mobileId": "965232598",
-        "password": "ashu123456"
+        "mobileId": "9999999999",
+        "password": "shyam123456"
     }
 ```
 
@@ -141,9 +154,9 @@
 
 ```
     {
-        "sessionId": 13,
-        "token": "customer_0bc75094",
-        "userId": 21,
+        "sessionId": 23,
+        "token": "customer_0ad57094",
+        "userId": 19,
         "userType": "customer",
         "sessionStartTime": "2022-06-10T10:48:20.0109626",
         "sessionEndTime": "2022-06-10T11:48:20.0109626"
